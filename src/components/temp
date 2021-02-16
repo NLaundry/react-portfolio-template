@@ -1,0 +1,9 @@
+mv about.js about.jsx
+mv Footer.js Footer.jsx
+mv Header.js Header.jsx
+mv layout.js layout.jsx
+mv Navbar.js Navbar.jsx
+mv Promotion.js Promotion.jsx
+mv seo.js seo.jsx
+mv skills.js skills.jsx
+mv Work.js Work.jsx

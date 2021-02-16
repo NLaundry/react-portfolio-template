@@ -9,6 +9,7 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
+import ParticleBG from "../components/atoms/ParticleBG"
 
 const IndexPage = () => (
   <Layout>
@@ -17,8 +18,9 @@ const IndexPage = () => (
     <Work></Work>
     <About></About>
     <Skills></Skills>
-    <Promotion></Promotion>
+    {/* <Promotion></Promotion> */}
     <Footer></Footer>
+    <ParticleBG></ParticleBG>
   </Layout>
 )
 

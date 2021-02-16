@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "./include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+// @import "~bootstrap/scss/bootstrap";
 
 // Atoms
 @import "./card.scss";
@@ -13,9 +14,14 @@
 @import "./skills.scss";
 @import "./promotion.scss";
 @import "./footer.scss";
+@import "./contactform.scss";
 
 * {
   font-family: "Montserrat";
+}
+
+p {
+    font-size: 18px;
 }
 
 body {
@@ -23,6 +29,10 @@ body {
   padding: 0;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+h1 {
+  color: $ColourFour;
 }
 
 .section {
@@ -38,6 +48,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  color: $ColourTwo;
+  background-color: $ColourBackground;
 }
 
 .primary-btn {
@@ -52,4 +65,15 @@ body {
   &:hover {
     transform: scale(1.1);
   }
+}
+
+.Particles{  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
